@@ -1,0 +1,33 @@
+.heat-legend {
+  background: #fff;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  font: 12px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+  .heat-legend .legend-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .heat-legend .legend-gradient {
+    width: 180px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: linear-gradient(to right, rgb(0,255,64), rgb(255,0,64));
+  }
+
+  .heat-legend .legend-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    color: #555;
+  }
+
+.leaflet-bottom.leaflet-left .heat-legend {
+  margin: 0 0 10px 10px;
+}
+

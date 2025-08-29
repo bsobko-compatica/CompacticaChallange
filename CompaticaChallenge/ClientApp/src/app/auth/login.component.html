@@ -1,0 +1,11 @@
+<div class="container py-5" style="max-width:600px">
+    <h3 class="mb-3">Sign in (demo)</h3>
+    <div class="mb-3">
+        <label class="form-label">Role</label>
+        <select class="form-select" [(ngModel)]="role">
+            <option>Viewer</option>
+            <option>Admin</option>
+        </select>
+    </div>
+    <button class="btn btn-primary" (click)="submit()">Continue</button>
+</div>

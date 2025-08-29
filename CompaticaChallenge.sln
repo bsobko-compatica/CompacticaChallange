@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompaticaChallenge", "CompaticaChallenge\CompaticaChallenge.csproj", "{F14FCCD9-80F3-4B28-B1E2-117BFCC470AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompaticaChallenge.Tests", "CompaticaChallenge.Tests\CompaticaChallenge.Tests.csproj", "{C8E5E505-607C-4C7F-88D2-A09AA9E557BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompaticaChallenge.E2E", "CompaticaChallenge.E2E\CompaticaChallenge.E2E.csproj", "{B0BBB943-F97A-4E68-B930-F3247C44BEA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github/workflows", ".github/workflows", "{1DB191D5-9A27-40AF-8912-C962C9F551A2}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A6646EE-C5D1-4A64-856D-24B841552A14}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14FCCD9-80F3-4B28-B1E2-117BFCC470AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14FCCD9-80F3-4B28-B1E2-117BFCC470AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14FCCD9-80F3-4B28-B1E2-117BFCC470AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14FCCD9-80F3-4B28-B1E2-117BFCC470AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E5E505-607C-4C7F-88D2-A09AA9E557BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E5E505-607C-4C7F-88D2-A09AA9E557BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E5E505-607C-4C7F-88D2-A09AA9E557BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E5E505-607C-4C7F-88D2-A09AA9E557BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BBB943-F97A-4E68-B930-F3247C44BEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BBB943-F97A-4E68-B930-F3247C44BEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BBB943-F97A-4E68-B930-F3247C44BEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BBB943-F97A-4E68-B930-F3247C44BEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B242611-4FBA-46BC-816A-1F0467E19B94}
+	EndGlobalSection
+EndGlobal

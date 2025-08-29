@@ -1,0 +1,6 @@
+<div class="container-fluid">
+    <div *ngIf="error" class="text-danger my-2">{{error}}</div>
+    <div id="map" style="height:420px;border-radius:8px;border:1px solid #ddd"></div>
+
+    <app-parcel-table [rows]="parcels"></app-parcel-table>
+</div>
