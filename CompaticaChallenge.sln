@@ -9,14 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompaticaChallenge.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompaticaChallenge.E2E", "CompaticaChallenge.E2E\CompaticaChallenge.E2E.csproj", "{B0BBB943-F97A-4E68-B930-F3247C44BEA6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github/workflows", ".github/workflows", "{1DB191D5-9A27-40AF-8912-C962C9F551A2}"
-	ProjectSection(SolutionItems) = preProject
-		ci.yml = ci.yml
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1DB191D5-9A27-40AF-8912-C962C9F551A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A6646EE-C5D1-4A64-856D-24B841552A14}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{77D6FF43-338A-4FEA-9FCD-2A0A3A613818}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
 	EndProjectSection
 EndProject
 Global
@@ -43,5 +45,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B242611-4FBA-46BC-816A-1F0467E19B94}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77D6FF43-338A-4FEA-9FCD-2A0A3A613818} = {1DB191D5-9A27-40AF-8912-C962C9F551A2}
 	EndGlobalSection
 EndGlobal
