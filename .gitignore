@@ -403,3 +403,18 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# build outputs
+**/bin/
+**/obj/
+# test/coverage artifacts
+**/TestResults/
+**/coverage/
+# playwright caches & browsers (інколи опиняються поза bin)
+**/.playwright/
+**/playwright/.cache/
+**/bin/
+**/obj/
+**/.playwright/
+**/TestResults/
+**/coverage/
