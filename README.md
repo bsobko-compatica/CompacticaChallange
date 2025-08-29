@@ -56,7 +56,7 @@ CompaticaChallenge.E2E/ # Playwright smoke tests
 ---
 
 ## 🔄 CI/CD Pipeline
-![CI](https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/bsobko-compatica/CompacticaChallange/blob/main/ci.yml/badge.svg)
 
 - Build + restore dependencies
 - Run unit + integration + UI smoke tests
@@ -84,7 +84,7 @@ This solution is not only a demo, but a **blueprint for production**:
 ---
 
 ## 📚 Documentation
-See the [Wiki](../../wiki) for:
+See the ![Wiki](https://github.com/bsobko-compatica/CompacticaChallange/wiki) for:
 - Architecture diagrams
 - API reference
 - Example workflows (supervisor → field engineer)
