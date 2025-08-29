@@ -180,6 +180,10 @@ ipch/
 # Visual Studio Trace Files
 *.e2e
 
+# allow our E2E project folder back
+!CompaticaChallenge.E2E/
+!CompaticaChallenge.E2E/**
+
 # TFS 2012 Local Workspace
 $tf/
 
